@@ -1,0 +1,31 @@
+x+y+z+p
+x y z p
+1 2 3 3.1415
+0.01 0.02 0.03 0.00005
+
+# =============== EJEMPLO ===============
+# La primer fila corresponde a la funcion.
+#   En este caso:
+#               f = x + y + z + p
+#
+# La segunda fila corresponde al vector
+# de variables
+#   En este caso:
+#               x, y, z, p
+#
+# La tercera fila corresponde al vector
+# de valores respectivos a cada variable
+#   En este caso:
+#               x = 1
+#               y = 2
+#               z = 3
+#               p = 3.1415
+#
+# La cuarta fila corresponde al vector
+# de errores respectivos a cada variable
+#   En este caso:
+#               x = 1 +\- 0.01
+#               y = 2 +\- 0.02
+#               z = 3 +\- 0.03
+#               p = 3.1415 +\- 0.00005
+#

@@ -16,10 +16,10 @@ optional arguments:
 El programa utiliza un archivo de texto a modo de entrada, se puede
 modificar el archivo de ejemplo o proveer otro por argumentos
 ```
-func_error_prop.py -f example.txt
+$ func_error_prop.py -f example.txt
 ```
 A continuacion se deja un instructivo sobre como debe ser el formato
-con lo que se ingresen o cambien valores en el archivo de entrada
+con los que se ingresen o cambien valores en el archivo de entrada
 ```
 x+y+z+p
 x y z p
@@ -57,4 +57,7 @@ x y z p
 * [Fuentes de error](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjduMWHrZjwAhW3oJUCHdzsBOMQFjAMegQIIBAD&url=https%3A%2F%2Festadistica-dma.ulpgc.es%2FFCC%2F05-1-Generalidades-Metodos-Numericos.html&usg=AOvVaw2EbXXnetcxdrraatUCh8U4)
 
 ## Bibliografia
-* [Métodos numéricos para ingenieros. Quinta edición. Steven C. Chapra. Raymond P. Canale]
+* Métodos numéricos para ingenieros. Quinta edición. Steven C. Chapra. Raymond P. Canale
+
+### Autor
+* **Mariano Saez**

@@ -1,0 +1,2773 @@
+(['/home/mariano/3º Año - Ing. Informatica/Analisis '
+  'Numerico/metodos_numericos_propios/error_propagation/func_error_prop.py'],
+ ['/home/mariano/3º Año - Ing. Informatica/Analisis '
+  'Numerico/metodos_numericos_propios/error_propagation',
+  '/home/mariano/3º Año - Ing. Informatica/Analisis '
+  'Numerico/metodos_numericos_propios/error_propagation/Unix'],
+ ['codecs'],
+ ['/home/mariano/3º Año - Ing. Informatica/Analisis '
+  'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks',
+  '/home/mariano/3º Año - Ing. Informatica/Analisis '
+  'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/_pyinstaller_hooks_contrib/hooks/stdhooks/__pycache__',
+  '/home/mariano/3º Año - Ing. Informatica/Analisis '
+  'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks',
+  '/home/mariano/3º Año - Ing. Informatica/Analisis '
+  'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/_pyinstaller_hooks_contrib/hooks/rthooks/__pycache__',
+  '/home/mariano/3º Año - Ing. Informatica/Analisis '
+  'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/_pyinstaller_hooks_contrib/hooks'],
+ [],
+ [],
+ False,
+ False,
+ False,
+ '3.9.2 (default, Feb 28 2021, 17:03:44) \n[GCC 10.2.1 20210110]',
+ [('pyi_rth_multiprocessing',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/PyInstaller/hooks/rthooks/pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('func_error_prop',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/func_error_prop.py',
+   'PYSOURCE')],
+ [('multiprocessing.popen_spawn_posix',
+   '/usr/lib/python3.9/multiprocessing/popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   '/usr/lib/python3.9/multiprocessing/resource_tracker.py',
+   'PYMODULE'),
+  ('threading', '/usr/lib/python3.9/threading.py', 'PYMODULE'),
+  ('_threading_local', '/usr/lib/python3.9/_threading_local.py', 'PYMODULE'),
+  ('contextlib', '/usr/lib/python3.9/contextlib.py', 'PYMODULE'),
+  ('_strptime', '/usr/lib/python3.9/_strptime.py', 'PYMODULE'),
+  ('datetime', '/usr/lib/python3.9/datetime.py', 'PYMODULE'),
+  ('calendar', '/usr/lib/python3.9/calendar.py', 'PYMODULE'),
+  ('signal', '/usr/lib/python3.9/signal.py', 'PYMODULE'),
+  ('multiprocessing.util',
+   '/usr/lib/python3.9/multiprocessing/util.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   '/usr/lib/python3.9/multiprocessing/forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   '/usr/lib/python3.9/multiprocessing/connection.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   '/usr/lib/python3.9/multiprocessing/resource_sharer.py',
+   'PYMODULE'),
+  ('xmlrpc.client', '/usr/lib/python3.9/xmlrpc/client.py', 'PYMODULE'),
+  ('xmlrpc', '/usr/lib/python3.9/xmlrpc/__init__.py', 'PYMODULE'),
+  ('gzip', '/usr/lib/python3.9/gzip.py', 'PYMODULE'),
+  ('_compression', '/usr/lib/python3.9/_compression.py', 'PYMODULE'),
+  ('xml.parsers.expat', '/usr/lib/python3.9/xml/parsers/expat.py', 'PYMODULE'),
+  ('xml.parsers', '/usr/lib/python3.9/xml/parsers/__init__.py', 'PYMODULE'),
+  ('xml', '/usr/lib/python3.9/xml/__init__.py', 'PYMODULE'),
+  ('xml.sax.expatreader',
+   '/usr/lib/python3.9/xml/sax/expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils', '/usr/lib/python3.9/xml/sax/saxutils.py', 'PYMODULE'),
+  ('urllib.request', '/usr/lib/python3.9/urllib/request.py', 'PYMODULE'),
+  ('fnmatch', '/usr/lib/python3.9/fnmatch.py', 'PYMODULE'),
+  ('getpass', '/usr/lib/python3.9/getpass.py', 'PYMODULE'),
+  ('nturl2path', '/usr/lib/python3.9/nturl2path.py', 'PYMODULE'),
+  ('ftplib', '/usr/lib/python3.9/ftplib.py', 'PYMODULE'),
+  ('netrc', '/usr/lib/python3.9/netrc.py', 'PYMODULE'),
+  ('stat', '/usr/lib/python3.9/stat.py', 'PYMODULE'),
+  ('shlex', '/usr/lib/python3.9/shlex.py', 'PYMODULE'),
+  ('mimetypes', '/usr/lib/python3.9/mimetypes.py', 'PYMODULE'),
+  ('getopt', '/usr/lib/python3.9/getopt.py', 'PYMODULE'),
+  ('gettext', '/usr/lib/python3.9/gettext.py', 'PYMODULE'),
+  ('copy', '/usr/lib/python3.9/copy.py', 'PYMODULE'),
+  ('email.utils', '/usr/lib/python3.9/email/utils.py', 'PYMODULE'),
+  ('email.charset', '/usr/lib/python3.9/email/charset.py', 'PYMODULE'),
+  ('email.encoders', '/usr/lib/python3.9/email/encoders.py', 'PYMODULE'),
+  ('quopri', '/usr/lib/python3.9/quopri.py', 'PYMODULE'),
+  ('email.errors', '/usr/lib/python3.9/email/errors.py', 'PYMODULE'),
+  ('email.quoprimime', '/usr/lib/python3.9/email/quoprimime.py', 'PYMODULE'),
+  ('email.base64mime', '/usr/lib/python3.9/email/base64mime.py', 'PYMODULE'),
+  ('email._parseaddr', '/usr/lib/python3.9/email/_parseaddr.py', 'PYMODULE'),
+  ('random', '/usr/lib/python3.9/random.py', 'PYMODULE'),
+  ('statistics', '/usr/lib/python3.9/statistics.py', 'PYMODULE'),
+  ('fractions', '/usr/lib/python3.9/fractions.py', 'PYMODULE'),
+  ('numbers', '/usr/lib/python3.9/numbers.py', 'PYMODULE'),
+  ('http.cookiejar', '/usr/lib/python3.9/http/cookiejar.py', 'PYMODULE'),
+  ('http', '/usr/lib/python3.9/http/__init__.py', 'PYMODULE'),
+  ('urllib', '/usr/lib/python3.9/urllib/__init__.py', 'PYMODULE'),
+  ('ssl', '/usr/lib/python3.9/ssl.py', 'PYMODULE'),
+  ('urllib.response', '/usr/lib/python3.9/urllib/response.py', 'PYMODULE'),
+  ('urllib.error', '/usr/lib/python3.9/urllib/error.py', 'PYMODULE'),
+  ('string', '/usr/lib/python3.9/string.py', 'PYMODULE'),
+  ('posixpath', '/usr/lib/python3.9/posixpath.py', 'PYMODULE'),
+  ('genericpath', '/usr/lib/python3.9/genericpath.py', 'PYMODULE'),
+  ('hashlib', '/usr/lib/python3.9/hashlib.py', 'PYMODULE'),
+  ('email', '/usr/lib/python3.9/email/__init__.py', 'PYMODULE'),
+  ('email.parser', '/usr/lib/python3.9/email/parser.py', 'PYMODULE'),
+  ('email._policybase', '/usr/lib/python3.9/email/_policybase.py', 'PYMODULE'),
+  ('email.feedparser', '/usr/lib/python3.9/email/feedparser.py', 'PYMODULE'),
+  ('email.message', '/usr/lib/python3.9/email/message.py', 'PYMODULE'),
+  ('email.policy', '/usr/lib/python3.9/email/policy.py', 'PYMODULE'),
+  ('email.contentmanager',
+   '/usr/lib/python3.9/email/contentmanager.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   '/usr/lib/python3.9/email/headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators', '/usr/lib/python3.9/email/iterators.py', 'PYMODULE'),
+  ('email.generator', '/usr/lib/python3.9/email/generator.py', 'PYMODULE'),
+  ('email._encoded_words',
+   '/usr/lib/python3.9/email/_encoded_words.py',
+   'PYMODULE'),
+  ('uu', '/usr/lib/python3.9/uu.py', 'PYMODULE'),
+  ('optparse', '/usr/lib/python3.9/optparse.py', 'PYMODULE'),
+  ('textwrap', '/usr/lib/python3.9/textwrap.py', 'PYMODULE'),
+  ('email._header_value_parser',
+   '/usr/lib/python3.9/email/_header_value_parser.py',
+   'PYMODULE'),
+  ('email.header', '/usr/lib/python3.9/email/header.py', 'PYMODULE'),
+  ('bisect', '/usr/lib/python3.9/bisect.py', 'PYMODULE'),
+  ('xml.sax', '/usr/lib/python3.9/xml/sax/__init__.py', 'PYMODULE'),
+  ('xml.sax.handler', '/usr/lib/python3.9/xml/sax/handler.py', 'PYMODULE'),
+  ('xml.sax._exceptions',
+   '/usr/lib/python3.9/xml/sax/_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader', '/usr/lib/python3.9/xml/sax/xmlreader.py', 'PYMODULE'),
+  ('urllib.parse', '/usr/lib/python3.9/urllib/parse.py', 'PYMODULE'),
+  ('http.client', '/usr/lib/python3.9/http/client.py', 'PYMODULE'),
+  ('decimal', '/usr/lib/python3.9/decimal.py', 'PYMODULE'),
+  ('_pydecimal', '/usr/lib/python3.9/_pydecimal.py', 'PYMODULE'),
+  ('contextvars', '/usr/lib/python3.9/contextvars.py', 'PYMODULE'),
+  ('base64', '/usr/lib/python3.9/base64.py', 'PYMODULE'),
+  ('hmac', '/usr/lib/python3.9/hmac.py', 'PYMODULE'),
+  ('struct', '/usr/lib/python3.9/struct.py', 'PYMODULE'),
+  ('socket', '/usr/lib/python3.9/socket.py', 'PYMODULE'),
+  ('selectors', '/usr/lib/python3.9/selectors.py', 'PYMODULE'),
+  ('tempfile', '/usr/lib/python3.9/tempfile.py', 'PYMODULE'),
+  ('shutil', '/usr/lib/python3.9/shutil.py', 'PYMODULE'),
+  ('zipfile', '/usr/lib/python3.9/zipfile.py', 'PYMODULE'),
+  ('py_compile', '/usr/lib/python3.9/py_compile.py', 'PYMODULE'),
+  ('importlib.machinery',
+   '/usr/lib/python3.9/importlib/machinery.py',
+   'PYMODULE'),
+  ('importlib', '/usr/lib/python3.9/importlib/__init__.py', 'PYMODULE'),
+  ('importlib.abc', '/usr/lib/python3.9/importlib/abc.py', 'PYMODULE'),
+  ('typing', '/usr/lib/python3.9/typing.py', 'PYMODULE'),
+  ('importlib._bootstrap',
+   '/usr/lib/python3.9/importlib/_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   '/usr/lib/python3.9/importlib/_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   '/usr/lib/python3.9/importlib/metadata.py',
+   'PYMODULE'),
+  ('configparser', '/usr/lib/python3.9/configparser.py', 'PYMODULE'),
+  ('pathlib', '/usr/lib/python3.9/pathlib.py', 'PYMODULE'),
+  ('ntpath', '/usr/lib/python3.9/ntpath.py', 'PYMODULE'),
+  ('csv', '/usr/lib/python3.9/csv.py', 'PYMODULE'),
+  ('tokenize', '/usr/lib/python3.9/tokenize.py', 'PYMODULE'),
+  ('token', '/usr/lib/python3.9/token.py', 'PYMODULE'),
+  ('importlib.util', '/usr/lib/python3.9/importlib/util.py', 'PYMODULE'),
+  ('tarfile', '/usr/lib/python3.9/tarfile.py', 'PYMODULE'),
+  ('lzma', '/usr/lib/python3.9/lzma.py', 'PYMODULE'),
+  ('bz2', '/usr/lib/python3.9/bz2.py', 'PYMODULE'),
+  ('logging', '/usr/lib/python3.9/logging/__init__.py', 'PYMODULE'),
+  ('pickle', '/usr/lib/python3.9/pickle.py', 'PYMODULE'),
+  ('pprint', '/usr/lib/python3.9/pprint.py', 'PYMODULE'),
+  ('doctest', '/usr/lib/python3.9/doctest.py', 'PYMODULE'),
+  ('unittest', '/usr/lib/python3.9/unittest/__init__.py', 'PYMODULE'),
+  ('unittest.async_case',
+   '/usr/lib/python3.9/unittest/async_case.py',
+   'PYMODULE'),
+  ('asyncio', '/usr/lib/python3.9/asyncio/__init__.py', 'PYMODULE'),
+  ('asyncio.unix_events',
+   '/usr/lib/python3.9/asyncio/unix_events.py',
+   'PYMODULE'),
+  ('asyncio.log', '/usr/lib/python3.9/asyncio/log.py', 'PYMODULE'),
+  ('asyncio.windows_events',
+   '/usr/lib/python3.9/asyncio/windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   '/usr/lib/python3.9/asyncio/windows_utils.py',
+   'PYMODULE'),
+  ('asyncio.selector_events',
+   '/usr/lib/python3.9/asyncio/selector_events.py',
+   'PYMODULE'),
+  ('asyncio.proactor_events',
+   '/usr/lib/python3.9/asyncio/proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   '/usr/lib/python3.9/asyncio/base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.threads', '/usr/lib/python3.9/asyncio/threads.py', 'PYMODULE'),
+  ('asyncio.subprocess',
+   '/usr/lib/python3.9/asyncio/subprocess.py',
+   'PYMODULE'),
+  ('asyncio.streams', '/usr/lib/python3.9/asyncio/streams.py', 'PYMODULE'),
+  ('asyncio.queues', '/usr/lib/python3.9/asyncio/queues.py', 'PYMODULE'),
+  ('asyncio.runners', '/usr/lib/python3.9/asyncio/runners.py', 'PYMODULE'),
+  ('asyncio.events', '/usr/lib/python3.9/asyncio/events.py', 'PYMODULE'),
+  ('asyncio.base_events',
+   '/usr/lib/python3.9/asyncio/base_events.py',
+   'PYMODULE'),
+  ('concurrent.futures',
+   '/usr/lib/python3.9/concurrent/futures/__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   '/usr/lib/python3.9/concurrent/futures/thread.py',
+   'PYMODULE'),
+  ('queue', '/usr/lib/python3.9/queue.py', 'PYMODULE'),
+  ('concurrent.futures.process',
+   '/usr/lib/python3.9/concurrent/futures/process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   '/usr/lib/python3.9/multiprocessing/queues.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   '/usr/lib/python3.9/multiprocessing/synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   '/usr/lib/python3.9/multiprocessing/heap.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   '/usr/lib/python3.9/concurrent/futures/_base.py',
+   'PYMODULE'),
+  ('concurrent', '/usr/lib/python3.9/concurrent/__init__.py', 'PYMODULE'),
+  ('asyncio.trsock', '/usr/lib/python3.9/asyncio/trsock.py', 'PYMODULE'),
+  ('asyncio.staggered', '/usr/lib/python3.9/asyncio/staggered.py', 'PYMODULE'),
+  ('asyncio.tasks', '/usr/lib/python3.9/asyncio/tasks.py', 'PYMODULE'),
+  ('asyncio.base_tasks',
+   '/usr/lib/python3.9/asyncio/base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.locks', '/usr/lib/python3.9/asyncio/locks.py', 'PYMODULE'),
+  ('asyncio.sslproto', '/usr/lib/python3.9/asyncio/sslproto.py', 'PYMODULE'),
+  ('asyncio.transports',
+   '/usr/lib/python3.9/asyncio/transports.py',
+   'PYMODULE'),
+  ('asyncio.protocols', '/usr/lib/python3.9/asyncio/protocols.py', 'PYMODULE'),
+  ('asyncio.futures', '/usr/lib/python3.9/asyncio/futures.py', 'PYMODULE'),
+  ('asyncio.exceptions',
+   '/usr/lib/python3.9/asyncio/exceptions.py',
+   'PYMODULE'),
+  ('asyncio.coroutines',
+   '/usr/lib/python3.9/asyncio/coroutines.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   '/usr/lib/python3.9/asyncio/base_futures.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   '/usr/lib/python3.9/asyncio/format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.constants', '/usr/lib/python3.9/asyncio/constants.py', 'PYMODULE'),
+  ('unittest.signals', '/usr/lib/python3.9/unittest/signals.py', 'PYMODULE'),
+  ('unittest.main', '/usr/lib/python3.9/unittest/main.py', 'PYMODULE'),
+  ('unittest.runner', '/usr/lib/python3.9/unittest/runner.py', 'PYMODULE'),
+  ('unittest.loader', '/usr/lib/python3.9/unittest/loader.py', 'PYMODULE'),
+  ('unittest.suite', '/usr/lib/python3.9/unittest/suite.py', 'PYMODULE'),
+  ('unittest.case', '/usr/lib/python3.9/unittest/case.py', 'PYMODULE'),
+  ('unittest._log', '/usr/lib/python3.9/unittest/_log.py', 'PYMODULE'),
+  ('unittest.result', '/usr/lib/python3.9/unittest/result.py', 'PYMODULE'),
+  ('unittest.util', '/usr/lib/python3.9/unittest/util.py', 'PYMODULE'),
+  ('pdb', '/usr/lib/python3.9/pdb.py', 'PYMODULE'),
+  ('pydoc', '/usr/lib/python3.9/pydoc.py', 'PYMODULE'),
+  ('webbrowser', '/usr/lib/python3.9/webbrowser.py', 'PYMODULE'),
+  ('http.server', '/usr/lib/python3.9/http/server.py', 'PYMODULE'),
+  ('socketserver', '/usr/lib/python3.9/socketserver.py', 'PYMODULE'),
+  ('html', '/usr/lib/python3.9/html/__init__.py', 'PYMODULE'),
+  ('html.entities', '/usr/lib/python3.9/html/entities.py', 'PYMODULE'),
+  ('pydoc_data.topics', '/usr/lib/python3.9/pydoc_data/topics.py', 'PYMODULE'),
+  ('pydoc_data', '/usr/lib/python3.9/pydoc_data/__init__.py', 'PYMODULE'),
+  ('tty', '/usr/lib/python3.9/tty.py', 'PYMODULE'),
+  ('sysconfig', '/usr/lib/python3.9/sysconfig.py', 'PYMODULE'),
+  ('_sysconfigdata__x86_64-linux-gnu',
+   '/usr/lib/python3.9/_sysconfigdata__x86_64-linux-gnu.py',
+   'PYMODULE'),
+  ('_aix_support', '/usr/lib/python3.9/_aix_support.py', 'PYMODULE'),
+  ('_bootsubprocess', '/usr/lib/python3.9/_bootsubprocess.py', 'PYMODULE'),
+  ('_osx_support', '/usr/lib/python3.9/_osx_support.py', 'PYMODULE'),
+  ('distutils.log', '/usr/lib/python3.9/distutils/log.py', 'PYMODULE'),
+  ('distutils', '/usr/lib/python3.9/distutils/__init__.py', 'PYMODULE'),
+  ('distutils.ccompiler',
+   '/usr/lib/python3.9/distutils/ccompiler.py',
+   'PYMODULE'),
+  ('distutils.fancy_getopt',
+   '/usr/lib/python3.9/distutils/fancy_getopt.py',
+   'PYMODULE'),
+  ('distutils.debug', '/usr/lib/python3.9/distutils/debug.py', 'PYMODULE'),
+  ('distutils.util', '/usr/lib/python3.9/distutils/util.py', 'PYMODULE'),
+  ('distutils.filelist',
+   '/usr/lib/python3.9/distutils/filelist.py',
+   'PYMODULE'),
+  ('distutils.dep_util',
+   '/usr/lib/python3.9/distutils/dep_util.py',
+   'PYMODULE'),
+  ('distutils.dir_util',
+   '/usr/lib/python3.9/distutils/dir_util.py',
+   'PYMODULE'),
+  ('distutils.file_util',
+   '/usr/lib/python3.9/distutils/file_util.py',
+   'PYMODULE'),
+  ('distutils.spawn', '/usr/lib/python3.9/distutils/spawn.py', 'PYMODULE'),
+  ('distutils.errors', '/usr/lib/python3.9/distutils/errors.py', 'PYMODULE'),
+  ('distutils.sysconfig',
+   '/usr/lib/python3.9/distutils/sysconfig.py',
+   'PYMODULE'),
+  ('distutils.text_file',
+   '/usr/lib/python3.9/distutils/text_file.py',
+   'PYMODULE'),
+  ('platform', '/usr/lib/python3.9/platform.py', 'PYMODULE'),
+  ('plistlib', '/usr/lib/python3.9/plistlib.py', 'PYMODULE'),
+  ('pkgutil', '/usr/lib/python3.9/pkgutil.py', 'PYMODULE'),
+  ('zipimport', '/usr/lib/python3.9/zipimport.py', 'PYMODULE'),
+  ('runpy', '/usr/lib/python3.9/runpy.py', 'PYMODULE'),
+  ('glob', '/usr/lib/python3.9/glob.py', 'PYMODULE'),
+  ('code', '/usr/lib/python3.9/code.py', 'PYMODULE'),
+  ('codeop', '/usr/lib/python3.9/codeop.py', 'PYMODULE'),
+  ('dis', '/usr/lib/python3.9/dis.py', 'PYMODULE'),
+  ('opcode', '/usr/lib/python3.9/opcode.py', 'PYMODULE'),
+  ('bdb', '/usr/lib/python3.9/bdb.py', 'PYMODULE'),
+  ('cmd', '/usr/lib/python3.9/cmd.py', 'PYMODULE'),
+  ('inspect', '/usr/lib/python3.9/inspect.py', 'PYMODULE'),
+  ('ast', '/usr/lib/python3.9/ast.py', 'PYMODULE'),
+  ('difflib', '/usr/lib/python3.9/difflib.py', 'PYMODULE'),
+  ('__future__', '/usr/lib/python3.9/__future__.py', 'PYMODULE'),
+  ('_compat_pickle', '/usr/lib/python3.9/_compat_pickle.py', 'PYMODULE'),
+  ('multiprocessing.process',
+   '/usr/lib/python3.9/multiprocessing/process.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   '/usr/lib/python3.9/multiprocessing/context.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   '/usr/lib/python3.9/multiprocessing/popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   '/usr/lib/python3.9/multiprocessing/sharedctypes.py',
+   'PYMODULE'),
+  ('ctypes', '/usr/lib/python3.9/ctypes/__init__.py', 'PYMODULE'),
+  ('ctypes._endian', '/usr/lib/python3.9/ctypes/_endian.py', 'PYMODULE'),
+  ('multiprocessing.pool',
+   '/usr/lib/python3.9/multiprocessing/pool.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   '/usr/lib/python3.9/multiprocessing/dummy/__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   '/usr/lib/python3.9/multiprocessing/dummy/connection.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   '/usr/lib/python3.9/multiprocessing/managers.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   '/usr/lib/python3.9/multiprocessing/shared_memory.py',
+   'PYMODULE'),
+  ('secrets', '/usr/lib/python3.9/secrets.py', 'PYMODULE'),
+  ('multiprocessing.reduction',
+   '/usr/lib/python3.9/multiprocessing/reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   '/usr/lib/python3.9/multiprocessing/popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   '/usr/lib/python3.9/multiprocessing/popen_spawn_win32.py',
+   'PYMODULE'),
+  ('subprocess', '/usr/lib/python3.9/subprocess.py', 'PYMODULE'),
+  ('multiprocessing.spawn',
+   '/usr/lib/python3.9/multiprocessing/spawn.py',
+   'PYMODULE'),
+  ('multiprocessing',
+   '/usr/lib/python3.9/multiprocessing/__init__.py',
+   'PYMODULE'),
+  ('os', '/usr/lib/python3.9/os.py', 'PYMODULE'),
+  ('tracemalloc', '/usr/lib/python3.9/tracemalloc.py', 'PYMODULE'),
+  ('_py_abc', '/usr/lib/python3.9/_py_abc.py', 'PYMODULE'),
+  ('stringprep', '/usr/lib/python3.9/stringprep.py', 'PYMODULE'),
+  ('argparse', '/usr/lib/python3.9/argparse.py', 'PYMODULE'),
+  ('sympy',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/__init__.py',
+   'PYMODULE'),
+  ('sympy.interactive',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/interactive/__init__.py',
+   'PYMODULE'),
+  ('sympy.interactive.session',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/interactive/session.py',
+   'PYMODULE'),
+  ('sympy.utilities.misc',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/utilities/misc.py',
+   'PYMODULE'),
+  ('sympy.core.decorators',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/decorators.py',
+   'PYMODULE'),
+  ('sympy.utilities.exceptions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/utilities/exceptions.py',
+   'PYMODULE'),
+  ('sympy.core.compatibility',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/compatibility.py',
+   'PYMODULE'),
+  ('sympy.utilities.iterables',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/utilities/iterables.py',
+   'PYMODULE'),
+  ('sympy.sets.sets',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/sets/sets.py',
+   'PYMODULE'),
+  ('sympy.sets.handlers.functions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/sets/handlers/functions.py',
+   'PYMODULE'),
+  ('sympy.sets.handlers',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/sets/handlers/__init__.py',
+   'PYMODULE'),
+  ('sympy.polys.polyutils',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/polyutils.py',
+   'PYMODULE'),
+  ('sympy.polys.polyoptions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/polyoptions.py',
+   'PYMODULE'),
+  ('sympy.polys.polyerrors',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/polyerrors.py',
+   'PYMODULE'),
+  ('sympy.printing.str',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/str.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.permutations',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/permutations.py',
+   'PYMODULE'),
+  ('sympy.printing.repr',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/repr.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.perm_groups',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/perm_groups.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.pc_groups',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/pc_groups.py',
+   'PYMODULE'),
+  ('sympy.printing.defaults',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/defaults.py',
+   'PYMODULE'),
+  ('sympy.core._print_helpers',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/_print_helpers.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.coset_table',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/coset_table.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.free_groups',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/free_groups.py',
+   'PYMODULE'),
+  ('sympy.utilities.magic',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/utilities/magic.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.fp_groups',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/fp_groups.py',
+   'PYMODULE'),
+  ('sympy.matrices.normalforms',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/normalforms.py',
+   'PYMODULE'),
+  ('sympy.matrices.dense',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/dense.py',
+   'PYMODULE'),
+  ('sympy.matrices.immutable',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/immutable.py',
+   'PYMODULE'),
+  ('sympy.matrices.sparse',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/sparse.py',
+   'PYMODULE'),
+  ('sympy.matrices.utilities',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/utilities.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/__init__.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.special',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/special.py',
+   'PYMODULE'),
+  ('sympy.functions.special.tensor_functions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/special/tensor_functions.py',
+   'PYMODULE'),
+  ('sympy.functions.special',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/special/__init__.py',
+   'PYMODULE'),
+  ('sympy.functions.elementary.piecewise',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/elementary/piecewise.py',
+   'PYMODULE'),
+  ('sympy.integrals.integrals',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/integrals/integrals.py',
+   'PYMODULE'),
+  ('sympy.integrals.risch',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/integrals/risch.py',
+   'PYMODULE'),
+  ('sympy.integrals.rde',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/integrals/rde.py',
+   'PYMODULE'),
+  ('sympy.integrals.prde',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/integrals/prde.py',
+   'PYMODULE'),
+  ('sympy.polys.polymatrix',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/polymatrix.py',
+   'PYMODULE'),
+  ('sympy.core.power',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/power.py',
+   'PYMODULE'),
+  ('sympy.core.mod',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/mod.py',
+   'PYMODULE'),
+  ('sympy.core.kind',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/kind.py',
+   'PYMODULE'),
+  ('sympy.multipledispatch.dispatcher',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/multipledispatch/dispatcher.py',
+   'PYMODULE'),
+  ('sympy.multipledispatch.utils',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/multipledispatch/utils.py',
+   'PYMODULE'),
+  ('sympy.multipledispatch.conflict',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/multipledispatch/conflict.py',
+   'PYMODULE'),
+  ('sympy.abc',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/abc.py',
+   'PYMODULE'),
+  ('sympy.core.alphabets',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/alphabets.py',
+   'PYMODULE'),
+  ('sympy.integrals.rationaltools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/integrals/rationaltools.py',
+   'PYMODULE'),
+  ('sympy.integrals.heurisch',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/integrals/heurisch.py',
+   'PYMODULE'),
+  ('sympy.polys.constructor',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/constructor.py',
+   'PYMODULE'),
+  ('sympy.polys.numberfields',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/numberfields.py',
+   'PYMODULE'),
+  ('sympy.printing.lambdarepr',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/lambdarepr.py',
+   'PYMODULE'),
+  ('sympy.printing.numpy',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/numpy.py',
+   'PYMODULE'),
+  ('sympy.tensor.array.expressions.array_expressions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/tensor/array/expressions/array_expressions.py',
+   'PYMODULE'),
+  ('sympy.tensor.array.expressions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/tensor/array/expressions/__init__.py',
+   'PYMODULE'),
+  ('sympy.tensor.array.expressions.utils',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/tensor/array/expressions/utils.py',
+   'PYMODULE'),
+  ('sympy.printing.codeprinter',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/codeprinter.py',
+   'PYMODULE'),
+  ('sympy.printing.cxx',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/cxx.py',
+   'PYMODULE'),
+  ('sympy.printing.fortran',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/fortran.py',
+   'PYMODULE'),
+  ('sympy.codegen.fnodes',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/codegen/fnodes.py',
+   'PYMODULE'),
+  ('sympy.codegen',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/codegen/__init__.py',
+   'PYMODULE'),
+  ('sympy.printing.c',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/c.py',
+   'PYMODULE'),
+  ('sympy.codegen.cnodes',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/codegen/cnodes.py',
+   'PYMODULE'),
+  ('sympy.codegen.cfunctions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/codegen/cfunctions.py',
+   'PYMODULE'),
+  ('sympy.tensor.indexed',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/tensor/indexed.py',
+   'PYMODULE'),
+  ('sympy.tensor.array.ndim_array',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/tensor/array/ndim_array.py',
+   'PYMODULE'),
+  ('sympy.tensor.array.arrayop',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/tensor/array/arrayop.py',
+   'PYMODULE'),
+  ('sympy.tensor.array.sparse_ndim_array',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/tensor/array/sparse_ndim_array.py',
+   'PYMODULE'),
+  ('sympy.tensor.array.mutable_ndim_array',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/tensor/array/mutable_ndim_array.py',
+   'PYMODULE'),
+  ('sympy.tensor.array.dense_ndim_array',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/tensor/array/dense_ndim_array.py',
+   'PYMODULE'),
+  ('sympy.tensor.array.array_derivatives',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/tensor/array/array_derivatives.py',
+   'PYMODULE'),
+  ('sympy.core.assumptions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/assumptions.py',
+   'PYMODULE'),
+  ('sympy.core.core',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/core.py',
+   'PYMODULE'),
+  ('sympy.core.facts',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/facts.py',
+   'PYMODULE'),
+  ('sympy.codegen.ast',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/codegen/ast.py',
+   'PYMODULE'),
+  ('sympy.simplify.cse_main',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/simplify/cse_main.py',
+   'PYMODULE'),
+  ('sympy.simplify.cse_opts',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/simplify/cse_opts.py',
+   'PYMODULE'),
+  ('sympy.polys.specialpolys',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/specialpolys.py',
+   'PYMODULE'),
+  ('sympy.polys.polyclasses',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/polyclasses.py',
+   'PYMODULE'),
+  ('sympy.polys.rootisolation',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/rootisolation.py',
+   'PYMODULE'),
+  ('sympy.polys.sqfreetools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/sqfreetools.py',
+   'PYMODULE'),
+  ('sympy.polys.galoistools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/galoistools.py',
+   'PYMODULE'),
+  ('sympy.polys.polyconfig',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/polyconfig.py',
+   'PYMODULE'),
+  ('sympy.polys.euclidtools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/euclidtools.py',
+   'PYMODULE'),
+  ('sympy.polys.factortools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/factortools.py',
+   'PYMODULE'),
+  ('sympy.polys.densebasic',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/densebasic.py',
+   'PYMODULE'),
+  ('sympy.polys.orderings',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/orderings.py',
+   'PYMODULE'),
+  ('sympy.polys.densearith',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/densearith.py',
+   'PYMODULE'),
+  ('sympy.polys.rootoftools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/rootoftools.py',
+   'PYMODULE'),
+  ('mpmath.libmp.libmpf',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/libmp/libmpf.py',
+   'PYMODULE'),
+  ('mpmath.libmp.libelefun',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/libmp/libelefun.py',
+   'PYMODULE'),
+  ('mpmath.libmp.backend',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/libmp/backend.py',
+   'PYMODULE'),
+  ('sympy.polys.rationaltools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/rationaltools.py',
+   'PYMODULE'),
+  ('sympy.polys.polyfuncs',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/polyfuncs.py',
+   'PYMODULE'),
+  ('sympy.polys.ring_series',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/ring_series.py',
+   'PYMODULE'),
+  ('sympy.polys.orthopolys',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/orthopolys.py',
+   'PYMODULE'),
+  ('sympy.polys.densetools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/densetools.py',
+   'PYMODULE'),
+  ('sympy.ntheory.factor_',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/ntheory/factor_.py',
+   'PYMODULE'),
+  ('sympy.ntheory.ecm',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/ntheory/ecm.py',
+   'PYMODULE'),
+  ('sympy.ntheory.digits',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/ntheory/digits.py',
+   'PYMODULE'),
+  ('sympy.ntheory.generate',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/ntheory/generate.py',
+   'PYMODULE'),
+  ('sympy.functions.special.error_functions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/special/error_functions.py',
+   'PYMODULE'),
+  ('sympy.series.limits',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/series/limits.py',
+   'PYMODULE'),
+  ('sympy.calculus.util',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/calculus/util.py',
+   'PYMODULE'),
+  ('sympy.functions.special.gamma_functions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/special/gamma_functions.py',
+   'PYMODULE'),
+  ('sympy.functions.combinatorial.numbers',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/combinatorial/numbers.py',
+   'PYMODULE'),
+  ('sympy.functions.combinatorial',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/combinatorial/__init__.py',
+   'PYMODULE'),
+  ('sympy.utilities.memoization',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/utilities/memoization.py',
+   'PYMODULE'),
+  ('sympy.functions.special.zeta_functions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/special/zeta_functions.py',
+   'PYMODULE'),
+  ('sympy.functions.special.hyper',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/special/hyper.py',
+   'PYMODULE'),
+  ('sympy.functions.elementary.hyperbolic',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/elementary/hyperbolic.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.realfield',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/realfield.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.mpelements',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/mpelements.py',
+   'PYMODULE'),
+  ('mpmath.rational',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/rational.py',
+   'PYMODULE'),
+  ('mpmath.ctx_mp_python',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/ctx_mp_python.py',
+   'PYMODULE'),
+  ('mpmath.function_docs',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/function_docs.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.domainelement',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/domainelement.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.characteristiczero',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/characteristiczero.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.domain',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/domain.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.old_fractionfield',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/old_fractionfield.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.compositedomain',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/compositedomain.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.fractionfield',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/fractionfield.py',
+   'PYMODULE'),
+  ('sympy.polys.fields',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/fields.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.polynomialring',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/polynomialring.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.ring',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/ring.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.quotientring',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/quotientring.py',
+   'PYMODULE'),
+  ('sympy.polys.agca.modules',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/agca/modules.py',
+   'PYMODULE'),
+  ('sympy.polys.distributedmodules',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/distributedmodules.py',
+   'PYMODULE'),
+  ('sympy.polys.agca.homomorphisms',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/agca/homomorphisms.py',
+   'PYMODULE'),
+  ('sympy.polys.agca',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/agca/__init__.py',
+   'PYMODULE'),
+  ('sympy.polys.agca.ideals',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/agca/ideals.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.old_polynomialring',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/old_polynomialring.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.simpledomain',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/simpledomain.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.field',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/field.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.complexfield',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/complexfield.py',
+   'PYMODULE'),
+  ('sympy.polys.rings',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/rings.py',
+   'PYMODULE'),
+  ('sympy.polys.heuristicgcd',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/heuristicgcd.py',
+   'PYMODULE'),
+  ('sympy.polys.compatibility',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/compatibility.py',
+   'PYMODULE'),
+  ('sympy.ntheory.multinomial',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/ntheory/multinomial.py',
+   'PYMODULE'),
+  ('sympy.polys.polyroots',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/polyroots.py',
+   'PYMODULE'),
+  ('sympy.polys.polyquinticconst',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/polyquinticconst.py',
+   'PYMODULE'),
+  ('sympy.polys.monomials',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/monomials.py',
+   'PYMODULE'),
+  ('sympy.functions.special.delta_functions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/special/delta_functions.py',
+   'PYMODULE'),
+  ('sympy.integrals.singularityfunctions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/integrals/singularityfunctions.py',
+   'PYMODULE'),
+  ('sympy.integrals.deltafunctions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/integrals/deltafunctions.py',
+   'PYMODULE'),
+  ('sympy.concrete.summations',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/concrete/summations.py',
+   'PYMODULE'),
+  ('sympy.concrete.delta',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/concrete/delta.py',
+   'PYMODULE'),
+  ('sympy.concrete.products',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/concrete/products.py',
+   'PYMODULE'),
+  ('sympy.series.residues',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/series/residues.py',
+   'PYMODULE'),
+  ('sympy.utilities.timeutils',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/utilities/timeutils.py',
+   'PYMODULE'),
+  ('timeit', '/usr/lib/python3.9/timeit.py', 'PYMODULE'),
+  ('sympy.series.limitseq',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/series/limitseq.py',
+   'PYMODULE'),
+  ('sympy.concrete.gosper',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/concrete/gosper.py',
+   'PYMODULE'),
+  ('sympy.concrete.expr_with_intlimits',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/concrete/expr_with_intlimits.py',
+   'PYMODULE'),
+  ('sympy.solvers.solvers',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/solvers/solvers.py',
+   'PYMODULE'),
+  ('sympy.solvers.bivariate',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/solvers/bivariate.py',
+   'PYMODULE'),
+  ('sympy.physics.units',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/units/__init__.py',
+   'PYMODULE'),
+  ('sympy.physics.units.systems.si',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/units/systems/si.py',
+   'PYMODULE'),
+  ('sympy.physics.units.systems.mksa',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/units/systems/mksa.py',
+   'PYMODULE'),
+  ('sympy.physics.units.systems.mks',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/units/systems/mks.py',
+   'PYMODULE'),
+  ('sympy.physics.units.systems.length_weight_time',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/units/systems/length_weight_time.py',
+   'PYMODULE'),
+  ('sympy.physics.units.systems',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/units/systems/__init__.py',
+   'PYMODULE'),
+  ('sympy.physics.units.systems.natural',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/units/systems/natural.py',
+   'PYMODULE'),
+  ('sympy.physics.units.definitions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/units/definitions/__init__.py',
+   'PYMODULE'),
+  ('sympy.physics.units.definitions.unit_definitions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/units/definitions/unit_definitions.py',
+   'PYMODULE'),
+  ('sympy.physics.units.prefixes',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/units/prefixes.py',
+   'PYMODULE'),
+  ('sympy.physics.units.definitions.dimension_definitions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/units/definitions/dimension_definitions.py',
+   'PYMODULE'),
+  ('sympy.physics.units.quantities',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/units/quantities.py',
+   'PYMODULE'),
+  ('sympy.physics.units.util',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/units/util.py',
+   'PYMODULE'),
+  ('sympy.physics.units.unitsystem',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/units/unitsystem.py',
+   'PYMODULE'),
+  ('sympy.physics.units.dimensions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/units/dimensions.py',
+   'PYMODULE'),
+  ('sympy.physics',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/__init__.py',
+   'PYMODULE'),
+  ('sympy.physics.matrices',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/matrices.py',
+   'PYMODULE'),
+  ('sympy.solvers.polysys',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/solvers/polysys.py',
+   'PYMODULE'),
+  ('sympy.tensor.functions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/tensor/functions.py',
+   'PYMODULE'),
+  ('sympy.strategies',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/strategies/__init__.py',
+   'PYMODULE'),
+  ('sympy.strategies.branch',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/strategies/branch/__init__.py',
+   'PYMODULE'),
+  ('sympy.strategies.branch.tools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/strategies/branch/tools.py',
+   'PYMODULE'),
+  ('sympy.strategies.branch.core',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/strategies/branch/core.py',
+   'PYMODULE'),
+  ('sympy.strategies.branch.traverse',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/strategies/branch/traverse.py',
+   'PYMODULE'),
+  ('sympy.strategies.tools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/strategies/tools.py',
+   'PYMODULE'),
+  ('sympy.strategies.core',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/strategies/core.py',
+   'PYMODULE'),
+  ('sympy.strategies.util',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/strategies/util.py',
+   'PYMODULE'),
+  ('sympy.strategies.traverse',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/strategies/traverse.py',
+   'PYMODULE'),
+  ('sympy.strategies.rl',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/strategies/rl.py',
+   'PYMODULE'),
+  ('sympy.series.formal',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/series/formal.py',
+   'PYMODULE'),
+  ('sympy.series.series_class',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/series/series_class.py',
+   'PYMODULE'),
+  ('sympy.series.sequences',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/series/sequences.py',
+   'PYMODULE'),
+  ('sympy.discrete.convolutions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/discrete/convolutions.py',
+   'PYMODULE'),
+  ('sympy.discrete.transforms',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/discrete/transforms.py',
+   'PYMODULE'),
+  ('sympy.series.order',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/series/order.py',
+   'PYMODULE'),
+  ('sympy.integrals.meijerint',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/integrals/meijerint.py',
+   'PYMODULE'),
+  ('sympy.integrals.transforms',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/integrals/transforms.py',
+   'PYMODULE'),
+  ('sympy.integrals.trigonometry',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/integrals/trigonometry.py',
+   'PYMODULE'),
+  ('sympy.integrals.manualintegrate',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/integrals/manualintegrate.py',
+   'PYMODULE'),
+  ('sympy.functions.special.polynomials',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/special/polynomials.py',
+   'PYMODULE'),
+  ('sympy.functions.elementary.integers',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/elementary/integers.py',
+   'PYMODULE'),
+  ('sympy.core.add',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/add.py',
+   'PYMODULE'),
+  ('sympy.tensor.tensor',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/tensor/tensor.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.tensor_can',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/tensor_can.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.testutil',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/testutil.py',
+   'PYMODULE'),
+  ('sympy.concrete.expr_with_limits',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/concrete/expr_with_limits.py',
+   'PYMODULE'),
+  ('sympy.solvers.inequalities',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/solvers/inequalities.py',
+   'PYMODULE'),
+  ('sympy.functions.elementary',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/elementary/__init__.py',
+   'PYMODULE'),
+  ('sympy.functions.elementary.complexes',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/elementary/complexes.py',
+   'PYMODULE'),
+  ('sympy.printing.pretty.stringpict',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/pretty/stringpict.py',
+   'PYMODULE'),
+  ('curses', '/usr/lib/python3.9/curses/__init__.py', 'PYMODULE'),
+  ('curses.has_key', '/usr/lib/python3.9/curses/has_key.py', 'PYMODULE'),
+  ('sympy.printing.pretty.pretty_symbology',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/pretty/pretty_symbology.py',
+   'PYMODULE'),
+  ('sympy.printing.conventions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/conventions.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.sets',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/sets.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.permutation',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/permutation.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.kronecker',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/kronecker.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.dotproduct',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/dotproduct.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.diagonal',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/diagonal.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.hadamard',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/hadamard.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.adjoint',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/adjoint.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.transpose',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/transpose.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.determinant',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/determinant.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.trace',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/trace.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.matpow',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/matpow.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.matmul',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/matmul.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.matadd',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/matadd.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.inverse',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/inverse.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.funcmatrix',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/funcmatrix.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.companion',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/companion.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.blockmatrix',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/blockmatrix.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.slice',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/slice.py',
+   'PYMODULE'),
+  ('sympy.core.cache',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/cache.py',
+   'PYMODULE'),
+  ('mpmath.matrices.matrices',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/matrices/matrices.py',
+   'PYMODULE'),
+  ('mpmath.matrices',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/matrices/__init__.py',
+   'PYMODULE'),
+  ('mpmath.matrices.eigen_symmetric',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/matrices/eigen_symmetric.py',
+   'PYMODULE'),
+  ('mpmath.matrices.eigen',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/matrices/eigen.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.matexpr',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/matexpr.py',
+   'PYMODULE'),
+  ('sympy.tensor.array.expressions.conv_array_to_matrix',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/tensor/array/expressions/conv_array_to_matrix.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.applyfunc',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/applyfunc.py',
+   'PYMODULE'),
+  ('sympy.matrices.solvers',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/solvers.py',
+   'PYMODULE'),
+  ('sympy.matrices.eigen',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/eigen.py',
+   'PYMODULE'),
+  ('sympy.matrices.determinant',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/determinant.py',
+   'PYMODULE'),
+  ('sympy.polys.matrices.domainmatrix',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/matrices/domainmatrix.py',
+   'PYMODULE'),
+  ('sympy.polys.matrices.sdm',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/matrices/sdm.py',
+   'PYMODULE'),
+  ('sympy.polys.matrices.ddm',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/matrices/ddm.py',
+   'PYMODULE'),
+  ('sympy.polys.matrices.dense',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/matrices/dense.py',
+   'PYMODULE'),
+  ('sympy.polys.matrices.exceptions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/matrices/exceptions.py',
+   'PYMODULE'),
+  ('sympy.polys.matrices.eigen',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/matrices/eigen.py',
+   'PYMODULE'),
+  ('sympy.polys.agca.extensions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/agca/extensions.py',
+   'PYMODULE'),
+  ('sympy.polys.matrices',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/matrices/__init__.py',
+   'PYMODULE'),
+  ('sympy.matrices.decompositions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/decompositions.py',
+   'PYMODULE'),
+  ('sympy.utilities.decorator',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/utilities/decorator.py',
+   'PYMODULE'),
+  ('sympy.testing.runtests',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/testing/runtests.py',
+   'PYMODULE'),
+  ('sympy.matrices.matrices',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/matrices.py',
+   'PYMODULE'),
+  ('sympy.matrices.sparsetools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/sparsetools.py',
+   'PYMODULE'),
+  ('sympy.matrices.inverse',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/inverse.py',
+   'PYMODULE'),
+  ('sympy.matrices.graph',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/graph.py',
+   'PYMODULE'),
+  ('sympy.matrices.subspaces',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/subspaces.py',
+   'PYMODULE'),
+  ('sympy.matrices.reductions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/reductions.py',
+   'PYMODULE'),
+  ('sympy.matrices.common',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/common.py',
+   'PYMODULE'),
+  ('sympy.discrete.recurrences',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/discrete/recurrences.py',
+   'PYMODULE'),
+  ('sympy.functions.elementary.trigonometric',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/elementary/trigonometric.py',
+   'PYMODULE'),
+  ('sympy.functions.special.bessel',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/special/bessel.py',
+   'PYMODULE'),
+  ('sympy.polys.solvers',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/solvers.py',
+   'PYMODULE'),
+  ('sympy.polys.domainmatrix',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domainmatrix.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.rewritingsystem',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/rewritingsystem.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.rewritingsystem_fsm',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/rewritingsystem_fsm.py',
+   'PYMODULE'),
+  ('sympy.ntheory.primetest',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/ntheory/primetest.py',
+   'PYMODULE'),
+  ('sympy.ntheory.residue_ntheory',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/ntheory/residue_ntheory.py',
+   'PYMODULE'),
+  ('sympy.ntheory.modular',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/ntheory/modular.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.homomorphisms',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/homomorphisms.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.named_groups',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/named_groups.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.generators',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/generators.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.group_constructs',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/group_constructs.py',
+   'PYMODULE'),
+  ('sympy.testing.randtest',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/testing/randtest.py',
+   'PYMODULE'),
+  ('sympy.functions.combinatorial.factorials',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/combinatorial/factorials.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.util',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/util.py',
+   'PYMODULE'),
+  ('sympy.combinatorics',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/__init__.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.graycode',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/graycode.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.polyhedron',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/polyhedron.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.partitions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/partitions.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.subsets',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/subsets.py',
+   'PYMODULE'),
+  ('sympy.combinatorics.prufer',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/combinatorics/prufer.py',
+   'PYMODULE'),
+  ('mpmath.libmp.libintmath',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/libmp/libintmath.py',
+   'PYMODULE'),
+  ('sympy.polys.polytools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/polytools.py',
+   'PYMODULE'),
+  ('sympy.polys.dispersion',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/dispersion.py',
+   'PYMODULE'),
+  ('mpmath.libmp.libhyper',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/libmp/libhyper.py',
+   'PYMODULE'),
+  ('mpmath.libmp.gammazeta',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/libmp/gammazeta.py',
+   'PYMODULE'),
+  ('mpmath.libmp.libmpc',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/libmp/libmpc.py',
+   'PYMODULE'),
+  ('sympy.polys.groebnertools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/groebnertools.py',
+   'PYMODULE'),
+  ('sympy.polys.fglmtools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/fglmtools.py',
+   'PYMODULE'),
+  ('mpmath.libmp',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/libmp/__init__.py',
+   'PYMODULE'),
+  ('mpmath.libmp.libmpi',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/libmp/libmpi.py',
+   'PYMODULE'),
+  ('sympy.printing.precedence',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/precedence.py',
+   'PYMODULE'),
+  ('sympy.printing.printer',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/printer.py',
+   'PYMODULE'),
+  ('sympy.core.mul',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/mul.py',
+   'PYMODULE'),
+  ('sympy.core.exprtools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/exprtools.py',
+   'PYMODULE'),
+  ('sympy.core.coreerrors',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/coreerrors.py',
+   'PYMODULE'),
+  ('sympy.functions.elementary.exponential',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/elementary/exponential.py',
+   'PYMODULE'),
+  ('sympy.multipledispatch',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/multipledispatch/__init__.py',
+   'PYMODULE'),
+  ('sympy.multipledispatch.core',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/multipledispatch/core.py',
+   'PYMODULE'),
+  ('sympy.sets.handlers.power',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/sets/handlers/power.py',
+   'PYMODULE'),
+  ('sympy.sets.handlers.mul',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/sets/handlers/mul.py',
+   'PYMODULE'),
+  ('sympy.sets.handlers.add',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/sets/handlers/add.py',
+   'PYMODULE'),
+  ('sympy.sets.handlers.intersection',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/sets/handlers/intersection.py',
+   'PYMODULE'),
+  ('sympy.solvers.diophantine.diophantine',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/solvers/diophantine/diophantine.py',
+   'PYMODULE'),
+  ('sympy.sets.conditionset',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/sets/conditionset.py',
+   'PYMODULE'),
+  ('sympy.sets.handlers.union',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/sets/handlers/union.py',
+   'PYMODULE'),
+  ('sympy.sets.setexpr',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/sets/setexpr.py',
+   'PYMODULE'),
+  ('sympy.sets.fancysets',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/sets/fancysets.py',
+   'PYMODULE'),
+  ('sympy.functions.elementary.miscellaneous',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/elementary/miscellaneous.py',
+   'PYMODULE'),
+  ('sympy.core.rules',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/rules.py',
+   'PYMODULE'),
+  ('sympy.sets.powerset',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/sets/powerset.py',
+   'PYMODULE'),
+  ('sympy.sets.handlers.issubset',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/sets/handlers/issubset.py',
+   'PYMODULE'),
+  ('sympy.sets.contains',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/sets/contains.py',
+   'PYMODULE'),
+  ('sympy.logic.boolalg',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/logic/boolalg.py',
+   'PYMODULE'),
+  ('sympy.logic.inference',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/logic/inference.py',
+   'PYMODULE'),
+  ('sympy.logic.algorithms.pycosat_wrapper',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/logic/algorithms/pycosat_wrapper.py',
+   'PYMODULE'),
+  ('sympy.logic.algorithms',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/logic/algorithms/__init__.py',
+   'PYMODULE'),
+  ('sympy.assumptions.cnf',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/cnf.py',
+   'PYMODULE'),
+  ('sympy.logic.algorithms.dpll2',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/logic/algorithms/dpll2.py',
+   'PYMODULE'),
+  ('sympy.logic.algorithms.dpll',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/logic/algorithms/dpll.py',
+   'PYMODULE'),
+  ('sympy.external.importtools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/external/importtools.py',
+   'PYMODULE'),
+  ('sympy.core.symbol',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/symbol.py',
+   'PYMODULE'),
+  ('sympy.core.relational',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/relational.py',
+   'PYMODULE'),
+  ('sympy.core.operations',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/operations.py',
+   'PYMODULE'),
+  ('sympy.core.numbers',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/numbers.py',
+   'PYMODULE'),
+  ('mpmath.ctx_mp',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/ctx_mp.py',
+   'PYMODULE'),
+  ('mpmath.ctx_base',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/ctx_base.py',
+   'PYMODULE'),
+  ('mpmath.visualization',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/visualization.py',
+   'PYMODULE'),
+  ('colorsys', '/usr/lib/python3.9/colorsys.py', 'PYMODULE'),
+  ('mpmath.identification',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/identification.py',
+   'PYMODULE'),
+  ('mpmath.matrices.linalg',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/matrices/linalg.py',
+   'PYMODULE'),
+  ('mpmath.matrices.calculus',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/matrices/calculus.py',
+   'PYMODULE'),
+  ('mpmath.calculus.odes',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/calculus/odes.py',
+   'PYMODULE'),
+  ('mpmath.calculus',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/calculus/__init__.py',
+   'PYMODULE'),
+  ('mpmath.calculus.polynomials',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/calculus/polynomials.py',
+   'PYMODULE'),
+  ('mpmath.calculus.extrapolation',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/calculus/extrapolation.py',
+   'PYMODULE'),
+  ('mpmath.calculus.differentiation',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/calculus/differentiation.py',
+   'PYMODULE'),
+  ('mpmath.calculus.approximation',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/calculus/approximation.py',
+   'PYMODULE'),
+  ('mpmath.calculus.optimization',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/calculus/optimization.py',
+   'PYMODULE'),
+  ('mpmath.calculus.calculus',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/calculus/calculus.py',
+   'PYMODULE'),
+  ('mpmath.calculus.inverselaplace',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/calculus/inverselaplace.py',
+   'PYMODULE'),
+  ('mpmath.calculus.quadrature',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/calculus/quadrature.py',
+   'PYMODULE'),
+  ('mpmath.functions.rszeta',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/functions/rszeta.py',
+   'PYMODULE'),
+  ('mpmath.functions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/functions/__init__.py',
+   'PYMODULE'),
+  ('mpmath.functions.qfunctions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/functions/qfunctions.py',
+   'PYMODULE'),
+  ('mpmath.functions.zetazeros',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/functions/zetazeros.py',
+   'PYMODULE'),
+  ('mpmath.functions.zeta',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/functions/zeta.py',
+   'PYMODULE'),
+  ('mpmath.functions.elliptic',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/functions/elliptic.py',
+   'PYMODULE'),
+  ('mpmath.functions.theta',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/functions/theta.py',
+   'PYMODULE'),
+  ('mpmath.functions.orthogonal',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/functions/orthogonal.py',
+   'PYMODULE'),
+  ('mpmath.functions.bessel',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/functions/bessel.py',
+   'PYMODULE'),
+  ('mpmath.functions.expintegrals',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/functions/expintegrals.py',
+   'PYMODULE'),
+  ('mpmath.functions.hypergeometric',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/functions/hypergeometric.py',
+   'PYMODULE'),
+  ('mpmath.functions.factorials',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/functions/factorials.py',
+   'PYMODULE'),
+  ('mpmath.functions.functions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/functions/functions.py',
+   'PYMODULE'),
+  ('sympy.core.logic',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/logic.py',
+   'PYMODULE'),
+  ('sympy.core.expr',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/expr.py',
+   'PYMODULE'),
+  ('sympy.series.fourier',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/series/fourier.py',
+   'PYMODULE'),
+  ('sympy.core.parameters',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/parameters.py',
+   'PYMODULE'),
+  ('sympy.core.containers',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/containers.py',
+   'PYMODULE'),
+  ('sympy.tensor.array',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/tensor/array/__init__.py',
+   'PYMODULE'),
+  ('sympy.tensor.array.array_comprehension',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/tensor/array/array_comprehension.py',
+   'PYMODULE'),
+  ('sympy.utilities.enumerative',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/utilities/enumerative.py',
+   'PYMODULE'),
+  ('sympy.core.function',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/function.py',
+   'PYMODULE'),
+  ('sympy.calculus.finite_diff',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/calculus/finite_diff.py',
+   'PYMODULE'),
+  ('sympy.core.basic',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/basic.py',
+   'PYMODULE'),
+  ('sympy.core.singleton',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/singleton.py',
+   'PYMODULE'),
+  ('sympy.external',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/external/__init__.py',
+   'PYMODULE'),
+  ('sympy.polys.domains',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/__init__.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.gaussiandomains',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/gaussiandomains.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.pythonrational',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/pythonrational.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.groundtypes',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/groundtypes.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.expressiondomain',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/expressiondomain.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.algebraicfield',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/algebraicfield.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.gmpyrationalfield',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/gmpyrationalfield.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.pythonrationalfield',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/pythonrationalfield.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.gmpyintegerring',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/gmpyintegerring.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.pythonintegerring',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/pythonintegerring.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.gmpyfinitefield',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/gmpyfinitefield.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.pythonfinitefield',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/pythonfinitefield.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.rationalfield',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/rationalfield.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.integerring',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/integerring.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.finitefield',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/finitefield.py',
+   'PYMODULE'),
+  ('sympy.polys.domains.modularinteger',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/domains/modularinteger.py',
+   'PYMODULE'),
+  ('distutils.version', '/usr/lib/python3.9/distutils/version.py', 'PYMODULE'),
+  ('sympy.interactive.printing',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/interactive/printing.py',
+   'PYMODULE'),
+  ('sympy.plotting.plot_implicit',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/plot_implicit.py',
+   'PYMODULE'),
+  ('sympy.plotting.intervalmath',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/intervalmath/__init__.py',
+   'PYMODULE'),
+  ('sympy.plotting.intervalmath.lib_interval',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/intervalmath/lib_interval.py',
+   'PYMODULE'),
+  ('sympy.plotting.intervalmath.interval_arithmetic',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/intervalmath/interval_arithmetic.py',
+   'PYMODULE'),
+  ('sympy.plotting.intervalmath.interval_membership',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/intervalmath/interval_membership.py',
+   'PYMODULE'),
+  ('sympy.plotting.experimental_lambdify',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/experimental_lambdify.py',
+   'PYMODULE'),
+  ('sympy.plotting.textplot',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/textplot.py',
+   'PYMODULE'),
+  ('sympy.plotting.plot',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/plot.py',
+   'PYMODULE'),
+  ('sympy.plotting',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/__init__.py',
+   'PYMODULE'),
+  ('sympy.plotting.pygletplot',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/pygletplot/__init__.py',
+   'PYMODULE'),
+  ('sympy.plotting.pygletplot.plot',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/pygletplot/plot.py',
+   'PYMODULE'),
+  ('sympy.plotting.pygletplot.util',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/pygletplot/util.py',
+   'PYMODULE'),
+  ('sympy.plotting.pygletplot.plot_window',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/pygletplot/plot_window.py',
+   'PYMODULE'),
+  ('sympy.plotting.pygletplot.plot_controller',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/pygletplot/plot_controller.py',
+   'PYMODULE'),
+  ('sympy.plotting.pygletplot.plot_camera',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/pygletplot/plot_camera.py',
+   'PYMODULE'),
+  ('sympy.plotting.pygletplot.plot_rotation',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/pygletplot/plot_rotation.py',
+   'PYMODULE'),
+  ('sympy.plotting.pygletplot.managed_window',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/pygletplot/managed_window.py',
+   'PYMODULE'),
+  ('sympy.plotting.pygletplot.plot_object',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/pygletplot/plot_object.py',
+   'PYMODULE'),
+  ('sympy.plotting.pygletplot.plot_mode',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/pygletplot/plot_mode.py',
+   'PYMODULE'),
+  ('sympy.plotting.pygletplot.plot_interval',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/pygletplot/plot_interval.py',
+   'PYMODULE'),
+  ('sympy.plotting.pygletplot.plot_axes',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/pygletplot/plot_axes.py',
+   'PYMODULE'),
+  ('sympy.geometry.entity',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/geometry/entity.py',
+   'PYMODULE'),
+  ('sympy.geometry.polygon',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/geometry/polygon.py',
+   'PYMODULE'),
+  ('sympy.geometry.exceptions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/geometry/exceptions.py',
+   'PYMODULE'),
+  ('sympy.geometry.ellipse',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/geometry/ellipse.py',
+   'PYMODULE'),
+  ('sympy.geometry.util',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/geometry/util.py',
+   'PYMODULE'),
+  ('sympy.geometry.plane',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/geometry/plane.py',
+   'PYMODULE'),
+  ('sympy.functions.special.elliptic_integrals',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/special/elliptic_integrals.py',
+   'PYMODULE'),
+  ('sympy.geometry.line',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/geometry/line.py',
+   'PYMODULE'),
+  ('sympy.geometry.point',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/geometry/point.py',
+   'PYMODULE'),
+  ('sympy.plotting.pygletplot.plot_modes',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/pygletplot/plot_modes.py',
+   'PYMODULE'),
+  ('sympy.plotting.pygletplot.plot_surface',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/pygletplot/plot_surface.py',
+   'PYMODULE'),
+  ('sympy.plotting.pygletplot.plot_mode_base',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/pygletplot/plot_mode_base.py',
+   'PYMODULE'),
+  ('sympy.plotting.pygletplot.color_scheme',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/pygletplot/color_scheme.py',
+   'PYMODULE'),
+  ('sympy.plotting.pygletplot.plot_curve',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/plotting/pygletplot/plot_curve.py',
+   'PYMODULE'),
+  ('sympy.testing',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/testing/__init__.py',
+   'PYMODULE'),
+  ('sympy.printing.preview',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/preview.py',
+   'PYMODULE'),
+  ('sympy.printing.jscode',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/jscode.py',
+   'PYMODULE'),
+  ('sympy.printing.rcode',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/rcode.py',
+   'PYMODULE'),
+  ('sympy.printing.fcode',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/fcode.py',
+   'PYMODULE'),
+  ('sympy.printing.cxxcode',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/cxxcode.py',
+   'PYMODULE'),
+  ('sympy.printing.ccode',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/ccode.py',
+   'PYMODULE'),
+  ('sympy.printing.pycode',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/pycode.py',
+   'PYMODULE'),
+  ('sympy.printing.python',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/python.py',
+   'PYMODULE'),
+  ('sympy.printing.mathml',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/mathml.py',
+   'PYMODULE'),
+  ('sympy.vector',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/vector/__init__.py',
+   'PYMODULE'),
+  ('sympy.vector.integrals',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/vector/integrals.py',
+   'PYMODULE'),
+  ('sympy.vector.parametricregion',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/vector/parametricregion.py',
+   'PYMODULE'),
+  ('sympy.vector.implicitregion',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/vector/implicitregion.py',
+   'PYMODULE'),
+  ('sympy.vector.operators',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/vector/operators.py',
+   'PYMODULE'),
+  ('sympy.vector.orienters',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/vector/orienters.py',
+   'PYMODULE'),
+  ('sympy.vector.point',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/vector/point.py',
+   'PYMODULE'),
+  ('sympy.vector.functions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/vector/functions.py',
+   'PYMODULE'),
+  ('sympy.vector.deloperator',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/vector/deloperator.py',
+   'PYMODULE'),
+  ('sympy.vector.scalar',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/vector/scalar.py',
+   'PYMODULE'),
+  ('sympy.vector.dyadic',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/vector/dyadic.py',
+   'PYMODULE'),
+  ('sympy.vector.basisdependent',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/vector/basisdependent.py',
+   'PYMODULE'),
+  ('sympy.vector.vector',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/vector/vector.py',
+   'PYMODULE'),
+  ('sympy.vector.coordsysrect',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/vector/coordsysrect.py',
+   'PYMODULE'),
+  ('xml.dom.minidom', '/usr/lib/python3.9/xml/dom/minidom.py', 'PYMODULE'),
+  ('xml.dom.pulldom', '/usr/lib/python3.9/xml/dom/pulldom.py', 'PYMODULE'),
+  ('xml.dom.expatbuilder',
+   '/usr/lib/python3.9/xml/dom/expatbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.NodeFilter',
+   '/usr/lib/python3.9/xml/dom/NodeFilter.py',
+   'PYMODULE'),
+  ('xml.dom.xmlbuilder',
+   '/usr/lib/python3.9/xml/dom/xmlbuilder.py',
+   'PYMODULE'),
+  ('xml.dom.minicompat',
+   '/usr/lib/python3.9/xml/dom/minicompat.py',
+   'PYMODULE'),
+  ('xml.dom.domreg', '/usr/lib/python3.9/xml/dom/domreg.py', 'PYMODULE'),
+  ('xml.dom', '/usr/lib/python3.9/xml/dom/__init__.py', 'PYMODULE'),
+  ('sympy.printing.latex',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/latex.py',
+   'PYMODULE'),
+  ('sympy.categories',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/categories/__init__.py',
+   'PYMODULE'),
+  ('sympy.categories.diagram_drawing',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/categories/diagram_drawing.py',
+   'PYMODULE'),
+  ('sympy.categories.baseclasses',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/categories/baseclasses.py',
+   'PYMODULE'),
+  ('sympy.physics.control',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/control/__init__.py',
+   'PYMODULE'),
+  ('sympy.physics.control.lti',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/physics/control/lti.py',
+   'PYMODULE'),
+  ('sympy.functions.special.beta_functions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/special/beta_functions.py',
+   'PYMODULE'),
+  ('sympy.printing.pretty',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/pretty/__init__.py',
+   'PYMODULE'),
+  ('sympy.printing.pretty.pretty',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/pretty/pretty.py',
+   'PYMODULE'),
+  ('sympy.printing',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/__init__.py',
+   'PYMODULE'),
+  ('sympy.printing.maple',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/maple.py',
+   'PYMODULE'),
+  ('sympy.printing.dot',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/dot.py',
+   'PYMODULE'),
+  ('sympy.printing.tableform',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/tableform.py',
+   'PYMODULE'),
+  ('sympy.printing.tree',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/tree.py',
+   'PYMODULE'),
+  ('sympy.printing.gtk',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/gtk.py',
+   'PYMODULE'),
+  ('sympy.utilities.mathml',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/utilities/mathml/__init__.py',
+   'PYMODULE'),
+  ('sympy.utilities.pkgdata',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/utilities/pkgdata.py',
+   'PYMODULE'),
+  ('sympy.printing.rust',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/rust.py',
+   'PYMODULE'),
+  ('sympy.printing.octave',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/octave.py',
+   'PYMODULE'),
+  ('sympy.printing.mathematica',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/mathematica.py',
+   'PYMODULE'),
+  ('sympy.printing.julia',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/julia.py',
+   'PYMODULE'),
+  ('sympy.printing.glsl',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/glsl.py',
+   'PYMODULE'),
+  ('sympy.algebras',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/algebras/__init__.py',
+   'PYMODULE'),
+  ('sympy.algebras.quaternion',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/algebras/quaternion.py',
+   'PYMODULE'),
+  ('sympy.calculus.singularities',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/calculus/singularities.py',
+   'PYMODULE'),
+  ('sympy.calculus',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/calculus/__init__.py',
+   'PYMODULE'),
+  ('sympy.calculus.euler',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/calculus/euler.py',
+   'PYMODULE'),
+  ('sympy.parsing',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/parsing/__init__.py',
+   'PYMODULE'),
+  ('sympy.parsing.sympy_parser',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/parsing/sympy_parser.py',
+   'PYMODULE'),
+  ('sympy.tensor',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/tensor/__init__.py',
+   'PYMODULE'),
+  ('sympy.tensor.index_methods',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/tensor/index_methods.py',
+   'PYMODULE'),
+  ('sympy.integrals',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/integrals/__init__.py',
+   'PYMODULE'),
+  ('sympy.utilities.source',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/utilities/source.py',
+   'PYMODULE'),
+  ('sympy.utilities.lambdify',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/utilities/lambdify.py',
+   'PYMODULE'),
+  ('sympy.printing.tensorflow',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/printing/tensorflow.py',
+   'PYMODULE'),
+  ('sympy.utilities',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/utilities/__init__.py',
+   'PYMODULE'),
+  ('sympy.geometry',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/geometry/__init__.py',
+   'PYMODULE'),
+  ('sympy.geometry.parabola',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/geometry/parabola.py',
+   'PYMODULE'),
+  ('sympy.geometry.curve',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/geometry/curve.py',
+   'PYMODULE'),
+  ('sympy.matrices',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/__init__.py',
+   'PYMODULE'),
+  ('sympy.solvers.solveset',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/solvers/solveset.py',
+   'PYMODULE'),
+  ('sympy.polys.matrices.linsolve',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/matrices/linsolve.py',
+   'PYMODULE'),
+  ('sympy.solvers.decompogen',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/solvers/decompogen.py',
+   'PYMODULE'),
+  ('sympy.solvers.diophantine',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/solvers/diophantine/__init__.py',
+   'PYMODULE'),
+  ('sympy.solvers',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/solvers/__init__.py',
+   'PYMODULE'),
+  ('sympy.solvers.deutils',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/solvers/deutils.py',
+   'PYMODULE'),
+  ('sympy.solvers.pde',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/solvers/pde.py',
+   'PYMODULE'),
+  ('sympy.solvers.ode',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/solvers/ode/__init__.py',
+   'PYMODULE'),
+  ('sympy.solvers.ode.systems',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/solvers/ode/systems.py',
+   'PYMODULE'),
+  ('sympy.solvers.ode.subscheck',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/solvers/ode/subscheck.py',
+   'PYMODULE'),
+  ('sympy.solvers.ode.ode',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/solvers/ode/ode.py',
+   'PYMODULE'),
+  ('sympy.solvers.ode.single',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/solvers/ode/single.py',
+   'PYMODULE'),
+  ('sympy.core.multidimensional',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/multidimensional.py',
+   'PYMODULE'),
+  ('sympy.solvers.recurr',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/solvers/recurr.py',
+   'PYMODULE'),
+  ('sympy.sets',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/sets/__init__.py',
+   'PYMODULE'),
+  ('sympy.sets.handlers.comparison',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/sets/handlers/comparison.py',
+   'PYMODULE'),
+  ('sympy.sets.ordinals',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/sets/ordinals.py',
+   'PYMODULE'),
+  ('sympy.simplify.ratsimp',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/simplify/ratsimp.py',
+   'PYMODULE'),
+  ('sympy.simplify.gammasimp',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/simplify/gammasimp.py',
+   'PYMODULE'),
+  ('sympy.simplify.combsimp',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/simplify/combsimp.py',
+   'PYMODULE'),
+  ('sympy.simplify.powsimp',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/simplify/powsimp.py',
+   'PYMODULE'),
+  ('sympy.simplify.trigsimp',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/simplify/trigsimp.py',
+   'PYMODULE'),
+  ('sympy.strategies.tree',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/strategies/tree.py',
+   'PYMODULE'),
+  ('sympy.simplify.radsimp',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/simplify/radsimp.py',
+   'PYMODULE'),
+  ('sympy.simplify.hyperexpand',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/simplify/hyperexpand.py',
+   'PYMODULE'),
+  ('sympy.simplify.sqrtdenest',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/simplify/sqrtdenest.py',
+   'PYMODULE'),
+  ('sympy.simplify.fu',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/simplify/fu.py',
+   'PYMODULE'),
+  ('sympy.simplify.simplify',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/simplify/simplify.py',
+   'PYMODULE'),
+  ('sympy.simplify',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/simplify/__init__.py',
+   'PYMODULE'),
+  ('sympy.simplify.epathtools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/simplify/epathtools.py',
+   'PYMODULE'),
+  ('sympy.simplify.traversaltools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/simplify/traversaltools.py',
+   'PYMODULE'),
+  ('sympy.discrete',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/discrete/__init__.py',
+   'PYMODULE'),
+  ('sympy.concrete',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/concrete/__init__.py',
+   'PYMODULE'),
+  ('sympy.ntheory.egyptian_fraction',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/ntheory/egyptian_fraction.py',
+   'PYMODULE'),
+  ('sympy.ntheory.continued_fraction',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/ntheory/continued_fraction.py',
+   'PYMODULE'),
+  ('sympy.ntheory',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/ntheory/__init__.py',
+   'PYMODULE'),
+  ('sympy.ntheory.qs',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/ntheory/qs.py',
+   'PYMODULE'),
+  ('sympy.ntheory.partitions_',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/ntheory/partitions_.py',
+   'PYMODULE'),
+  ('sympy.functions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/__init__.py',
+   'PYMODULE'),
+  ('sympy.functions.special.mathieu_functions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/special/mathieu_functions.py',
+   'PYMODULE'),
+  ('sympy.functions.special.spherical_harmonics',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/special/spherical_harmonics.py',
+   'PYMODULE'),
+  ('sympy.functions.special.bsplines',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/special/bsplines.py',
+   'PYMODULE'),
+  ('sympy.functions.special.singularity_functions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/functions/special/singularity_functions.py',
+   'PYMODULE'),
+  ('sympy.series.approximants',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/series/approximants.py',
+   'PYMODULE'),
+  ('sympy.series.series',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/series/series.py',
+   'PYMODULE'),
+  ('sympy.series.gruntz',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/series/gruntz.py',
+   'PYMODULE'),
+  ('sympy.series',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/series/__init__.py',
+   'PYMODULE'),
+  ('sympy.polys',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/__init__.py',
+   'PYMODULE'),
+  ('sympy.polys.partfrac',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/polys/partfrac.py',
+   'PYMODULE'),
+  ('sympy.assumptions.refine',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/refine.py',
+   'PYMODULE'),
+  ('sympy.assumptions.ask',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/ask.py',
+   'PYMODULE'),
+  ('sympy.assumptions.ask_generated',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/ask_generated.py',
+   'PYMODULE'),
+  ('sympy.assumptions.satask',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/satask.py',
+   'PYMODULE'),
+  ('sympy.assumptions.sathandlers',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/sathandlers.py',
+   'PYMODULE'),
+  ('sympy.assumptions.relation.equality',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/relation/equality.py',
+   'PYMODULE'),
+  ('sympy.assumptions.relation',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/relation/__init__.py',
+   'PYMODULE'),
+  ('sympy.assumptions.relation.binrel',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/relation/binrel.py',
+   'PYMODULE'),
+  ('sympy.assumptions.predicates.matrices',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/predicates/matrices.py',
+   'PYMODULE'),
+  ('sympy.assumptions.predicates',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/predicates/__init__.py',
+   'PYMODULE'),
+  ('sympy.assumptions.handlers.matrices',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/handlers/matrices.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.fourier',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/fourier.py',
+   'PYMODULE'),
+  ('sympy.matrices.expressions.factorizations',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/matrices/expressions/factorizations.py',
+   'PYMODULE'),
+  ('sympy.assumptions.handlers',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/handlers/__init__.py',
+   'PYMODULE'),
+  ('sympy.assumptions.handlers.common',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/handlers/common.py',
+   'PYMODULE'),
+  ('sympy.assumptions.predicates.common',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/predicates/common.py',
+   'PYMODULE'),
+  ('sympy.assumptions.handlers.ntheory',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/handlers/ntheory.py',
+   'PYMODULE'),
+  ('sympy.assumptions.predicates.ntheory',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/predicates/ntheory.py',
+   'PYMODULE'),
+  ('sympy.assumptions.handlers.order',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/handlers/order.py',
+   'PYMODULE'),
+  ('sympy.assumptions.predicates.order',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/predicates/order.py',
+   'PYMODULE'),
+  ('sympy.assumptions.predicates.calculus',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/predicates/calculus.py',
+   'PYMODULE'),
+  ('sympy.assumptions.handlers.calculus',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/handlers/calculus.py',
+   'PYMODULE'),
+  ('sympy.assumptions.predicates.sets',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/predicates/sets.py',
+   'PYMODULE'),
+  ('sympy.assumptions.handlers.sets',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/handlers/sets.py',
+   'PYMODULE'),
+  ('sympy.assumptions.assume',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/assume.py',
+   'PYMODULE'),
+  ('sympy.assumptions',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/assumptions/__init__.py',
+   'PYMODULE'),
+  ('sympy.logic',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/logic/__init__.py',
+   'PYMODULE'),
+  ('sympy.core.evalf',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/evalf.py',
+   'PYMODULE'),
+  ('sympy.core.sympify',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/sympify.py',
+   'PYMODULE'),
+  ('sympy.core',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/core/__init__.py',
+   'PYMODULE'),
+  ('sympy.release',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/sympy/release.py',
+   'PYMODULE'),
+  ('mpmath',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/__init__.py',
+   'PYMODULE'),
+  ('mpmath.tests.runtests',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/tests/runtests.py',
+   'PYMODULE'),
+  ('trace', '/usr/lib/python3.9/trace.py', 'PYMODULE'),
+  ('cProfile', '/usr/lib/python3.9/cProfile.py', 'PYMODULE'),
+  ('pstats', '/usr/lib/python3.9/pstats.py', 'PYMODULE'),
+  ('dataclasses', '/usr/lib/python3.9/dataclasses.py', 'PYMODULE'),
+  ('profile', '/usr/lib/python3.9/profile.py', 'PYMODULE'),
+  ('mpmath.tests',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/tests/__init__.py',
+   'PYMODULE'),
+  ('mpmath.ctx_iv',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/ctx_iv.py',
+   'PYMODULE'),
+  ('mpmath.ctx_fp',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/ctx_fp.py',
+   'PYMODULE'),
+  ('mpmath.math2',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/math2.py',
+   'PYMODULE'),
+  ('mpmath.usertools',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/venv_err/lib/python3.9/site-packages/mpmath/usertools.py',
+   'PYMODULE')],
+ [('libexpat.so.1', '/lib/x86_64-linux-gnu/libexpat.so.1', 'BINARY'),
+  ('libz.so.1', '/lib/x86_64-linux-gnu/libz.so.1', 'BINARY'),
+  ('lib-dynload/_posixshmem',
+   '/usr/lib/python3.9/lib-dynload/_posixshmem.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_multiprocessing',
+   '/usr/lib/python3.9/lib-dynload/_multiprocessing.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/termios',
+   '/usr/lib/python3.9/lib-dynload/termios.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_ssl',
+   '/usr/lib/python3.9/lib-dynload/_ssl.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_hashlib',
+   '/usr/lib/python3.9/lib-dynload/_hashlib.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_contextvars',
+   '/usr/lib/python3.9/lib-dynload/_contextvars.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_decimal',
+   '/usr/lib/python3.9/lib-dynload/_decimal.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/resource',
+   '/usr/lib/python3.9/lib-dynload/resource.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_lzma',
+   '/usr/lib/python3.9/lib-dynload/_lzma.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_bz2',
+   '/usr/lib/python3.9/lib-dynload/_bz2.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_asyncio',
+   '/usr/lib/python3.9/lib-dynload/_asyncio.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_queue',
+   '/usr/lib/python3.9/lib-dynload/_queue.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/mmap',
+   '/usr/lib/python3.9/lib-dynload/mmap.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/readline',
+   '/usr/lib/python3.9/lib-dynload/readline.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_opcode',
+   '/usr/lib/python3.9/lib-dynload/_opcode.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_ctypes',
+   '/usr/lib/python3.9/lib-dynload/_ctypes.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_multibytecodec',
+   '/usr/lib/python3.9/lib-dynload/_multibytecodec.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_codecs_iso2022',
+   '/usr/lib/python3.9/lib-dynload/_codecs_iso2022.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_codecs_tw',
+   '/usr/lib/python3.9/lib-dynload/_codecs_tw.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_codecs_jp',
+   '/usr/lib/python3.9/lib-dynload/_codecs_jp.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_codecs_cn',
+   '/usr/lib/python3.9/lib-dynload/_codecs_cn.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_codecs_kr',
+   '/usr/lib/python3.9/lib-dynload/_codecs_kr.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_codecs_hk',
+   '/usr/lib/python3.9/lib-dynload/_codecs_hk.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_curses',
+   '/usr/lib/python3.9/lib-dynload/_curses.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('lib-dynload/_lsprof',
+   '/usr/lib/python3.9/lib-dynload/_lsprof.cpython-39-x86_64-linux-gnu.so',
+   'EXTENSION'),
+  ('libcrypto.so.1.1', '/lib/x86_64-linux-gnu/libcrypto.so.1.1', 'BINARY'),
+  ('libssl.so.1.1', '/lib/x86_64-linux-gnu/libssl.so.1.1', 'BINARY'),
+  ('libmpdec.so.3', '/lib/x86_64-linux-gnu/libmpdec.so.3', 'BINARY'),
+  ('liblzma.so.5', '/lib/x86_64-linux-gnu/liblzma.so.5', 'BINARY'),
+  ('libbz2.so.1.0', '/lib/x86_64-linux-gnu/libbz2.so.1.0', 'BINARY'),
+  ('libtinfo.so.6', '/lib/x86_64-linux-gnu/libtinfo.so.6', 'BINARY'),
+  ('libreadline.so.8', '/lib/x86_64-linux-gnu/libreadline.so.8', 'BINARY'),
+  ('libffi.so.7', '/lib/x86_64-linux-gnu/libffi.so.7', 'BINARY'),
+  ('libncursesw.so.6', '/lib/x86_64-linux-gnu/libncursesw.so.6', 'BINARY'),
+  ('libpython3.9.so.1.0',
+   '/lib/x86_64-linux-gnu/libpython3.9.so.1.0',
+   'BINARY')],
+ [],
+ [],
+ [('base_library.zip',
+   '/home/mariano/3º Año - Ing. Informatica/Analisis '
+   'Numerico/metodos_numericos_propios/error_propagation/Unix/build/func_error_prop/base_library.zip',
+   'DATA')],
+ [])

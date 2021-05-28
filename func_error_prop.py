@@ -78,6 +78,7 @@ if __name__ == '__main__':
     str_help = 'Modo de uso de archivo [FILE] para realizar input:\n\n'
     with open('example.txt', 'r') as f:
         str_help += f.read()
+        f.close()
     parser = ap.ArgumentParser(formatter_class=ap.RawDescriptionHelpFormatter,
                                epilog=str_help)
     parser.add_argument('-f',
@@ -87,7 +88,8 @@ if __name__ == '__main__':
                         default='example.txt')
     args = parser.parse_args()
     
-    with open(f'{args.file}', 'r+') as f:
+    # Lee el archivo recibido por parametro
+    with open(f'{args.file}', 'r') as f:
         lines = f.readlines()
         f.close()
     
